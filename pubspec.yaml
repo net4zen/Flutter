@@ -1,0 +1,36 @@
+name: weatherly
+description: "A professional weather application built with Flutter."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  flutter_riverpod: ^3.4.3
+
+  # Networking
+  dio: ^5.8.0
+
+  # Local cache
+  shared_preferences: ^2.5.5
+
+  # GPS / Location
+  geolocator: ^14.0.3
+
+  # Date/time formatting
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mockito: ^5.4.5
+  build_runner: ^2.4.14
+
+flutter:
+  uses-material-design: true
